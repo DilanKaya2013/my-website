@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Copperplate, Papyrus, fantasy;
+    
+}
+
+/* Header   bÖlümü*/
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;/*İçindeki nesnelerin hangi yönde yerleşecek*/
+    font-size: 150%;
+    line-height: 1.5cm;
+}
+
+header,footer{
+    padding-top: 12px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header h1{
+    font-size: 2.4em;
+}
+
+
+#main-menu{
+    display: flex;
+    justify-content: center; /*İçindeki flex ögeleri ortalanır*/
+}
+
+#main-menu a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding:12px 10px;
+    
+}
+main{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: #ffaaaa solid 3px;
+    flex: auto;
+}
+#content{
+    background-color: #ffc2e5;
+    padding: 20px;
+    flex: 9;
+}
+
+#content p{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+aside{
+    background-color: #c1f1fc;
+    padding: 20px;
+    flex: 3;
+}
+
+aside h2{
+    margin-bottom: 10px;
+}
+
+aside ul{
+    list-style: none;
+
+}
+
+aside a{
+    color: #000;
+}
+
+footer{
+    padding-bottom: 30px;
+}
