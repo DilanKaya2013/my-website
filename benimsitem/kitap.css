@@ -1,0 +1,157 @@
+
+
+/* Genel Ayarlar */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #444;
+}
+
+/* Header */
+.header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 5px solid #ff897d;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Navigasyon Çubuğu */
+.kisimlar {
+    background-color: #444;
+    padding: 15px 0;
+}
+
+.kisimlar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kisimlar ul li {
+    margin: 0 15px;
+}
+
+.kisimlar ul li a {
+    color: #ffeadb;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.kisimlar ul li a:hover {
+    background-color: #ff6f61;
+    color: white;
+    border-color: white;
+}
+
+/* İçerik */
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #ff6f61;
+}
+
+/* Grid Yapı */
+.populer-kitaplar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+.kitap-kart {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kitap-kart:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.kitap-kart img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.kitap-kart h3 {
+    margin: 15px 0 10px;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.kitap-kart p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.kitap-kart  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.kitap-kart button:hover {
+    background-color: #ff897d;
+    
+}
+
+.kitap-kart button a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #444;
+    color: #ffeadb;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
